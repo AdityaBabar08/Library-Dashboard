@@ -1,0 +1,21 @@
+
+mat-toolbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.title {
+  margin: 0;
+}
+
+.middle {
+  flex: 1 1 auto;
+}
+
+.right {
+  margin-left: auto;
+}

@@ -1,0 +1,23 @@
+
+.flex{
+  display: flex;
+}
+
+.top {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.button {
+  margin-left: 10px;
+  color: black;
+}
+
+.bottom{
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
