@@ -1,5 +1,17 @@
+#sideSearch {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
-.flex{
+#searchBar {
+  width: 100%;
+  height: 10%;
+  border: 3px solid black;
+  box-sizing: border-box;
+}
+
+.flex {
   display: flex;
 }
 
@@ -7,33 +19,37 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
 }
 
-.bottom{
+.bottom {
+  flex: 1;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px;
 }
 
-.search-button{
+.section {
+  width: 100%;
+  height: 30%;
+  border: 3px solid black;
+  box-sizing: border-box;
+  padding: 10px;
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.search-button {
   display: flex;
   justify-content: center;
   width: 120px;
-  // height: 78px;
 }
 
-::ng-deep .mat-raised-button{
+.mat-raised-button {
   width: 100%;
   height: 33px;
   margin-bottom: 10px;
-}
-
-#searchBar{
-  width: 100%;
-  height: 33px;
-  margin-bottom: 10px;
-  border-color: black;
-  border-width: 3px;
 }
