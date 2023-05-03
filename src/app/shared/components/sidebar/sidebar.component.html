@@ -1,23 +1,20 @@
 <mat-toolbar id="sideSearch">
-  <div class= "flex top">
+  <div class= "flex top " id="searchBar">
     <div>
       <mat-form-field>
         <input matInput placeholder="Search" />
       </mat-form-field>
     </div>
 
-    <div>
-      <button mat-fab color="primary" aria-label="Search" >
-        <mat-icon>search</mat-icon>
-      </button>
-
+    <div class="search-button">
+      <button mat-raised-button>Basic</button>
     </div>
   </div>
 
-  <div class = "flex bottom">
+ <div class = "flex bottom">
     <mat-card class="section student-details">
       <!-- Student details section -->
-      <mat-card-title>Student Details</mat-card-title>
+       <mat-card-title>Student Details</mat-card-title>
       <mat-card-content>
         <p>Student Name: John Doe</p>
         <p>Student ID: 123456</p>
@@ -49,7 +46,7 @@
     </mat-card>
 
 
-  </div>
+   </div>
 
 
 </mat-toolbar>
