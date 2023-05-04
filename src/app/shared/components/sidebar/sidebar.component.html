@@ -6,9 +6,9 @@
       </mat-form-field>
     </div>
 
-    <div class="search-button">
-      <button mat-raised-button>Basic</button>
-    </div>
+    <button mat-icon-button class="search-icon ">
+      <mat-icon>search</mat-icon>
+    </button>
   </div>
 
   <div class="flex bottom">
@@ -20,23 +20,28 @@
       <p>Department: Computer Science</p>
       <p>Email: john.doe@example.com</p>
     </div>
-    <div class="section recently-issued-books">
+    <mat-card class="section recently-issued-books">
       <!-- Recently issued books section -->
-      <h2>Recently Issued Books</h2>
-      <ul>
-        <li>Book 1</li>
-        <li>Book 2</li>
-        <li>Book 3</li>
-      </ul>
-    </div>
-    <div class="section books-due">
+      <mat-card-title>Recently Issued Books</mat-card-title>
+      <mat-card-content>
+        <ul>
+          <li>Book 1</li>
+          <li>Book 2</li>
+          <li>Book 3</li>
+        </ul>
+      </mat-card-content>
+    </mat-card>
+
+    <mat-card class="section books-due">
       <!-- Books due section -->
-      <h2>Books Due</h2>
-      <ul>
-        <li>Book 4</li>
-        <li>Book 5</li>
-        <li>Book 6</li>
-      </ul>
-    </div>
+      <mat-card-title>Books Due</mat-card-title>
+      <mat-card-content>
+        <ul>
+          <li>Book 4</li>
+          <li>Book 5</li>
+          <li>Book 6</li>
+        </ul>
+      </mat-card-content>
+    </mat-card>
   </div>
 </mat-toolbar>
